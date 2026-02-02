@@ -46,7 +46,9 @@
                    &kp LEFT_ALT  &mo 1   &kp LCTRL  &kp LSHFT  &kp SPACE     &kp BSLH  &kp RIGHT_SHIFT  &kp RCTRL  &mo 2    &kp RALT
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
+                <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         layer_F {
